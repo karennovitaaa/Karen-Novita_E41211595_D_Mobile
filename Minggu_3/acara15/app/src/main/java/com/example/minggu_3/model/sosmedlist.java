@@ -1,4 +1,4 @@
-package com.example.acara15.model;
+package com.example.minggu_3.model;
 
 public class sosmedlist {
     private final Integer medsos;

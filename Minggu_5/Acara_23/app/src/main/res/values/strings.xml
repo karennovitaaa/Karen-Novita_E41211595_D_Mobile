@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Eksplisit</string>
+    <string name="Identitas">DATA DIRI</string>
+    <string name="Nama">Nama</string>
+    <string name="Nim">NIM</string>
+    <string name="this_is_second_activity">This is Second Activity!</string>
+
+</resources>

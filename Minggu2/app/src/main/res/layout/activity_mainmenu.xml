@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TableLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="fill_parent"
     tools:context=".tablelayout">
 
     <TableRow
-        android:paddingTop="10dp"
+        android:layout_marginTop="50dp"
         android:gravity="center"
-        android:layout_marginTop="50dp">
+        android:paddingTop="10dp">
+
         <androidx.cardview.widget.CardView
             android:id="@+id/cardView"
             android:layout_width="70dp"
             android:layout_height="70dp"
+            android:layout_margin="20dp"
             android:layout_marginBottom="10dp"
             android:foregroundGravity="center"
+            android:onClick="menu"
             app:cardBackgroundColor="@color/colorAccent"
             app:cardCornerRadius="100dp"
-            android:layout_margin="20dp"
             app:cardMaxElevation="20dp"
-
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent">
@@ -45,13 +45,13 @@
             android:id="@+id/card2"
             android:layout_width="70dp"
             android:layout_height="70dp"
+            android:layout_margin="20dp"
             android:layout_marginBottom="50dp"
             android:foregroundGravity="center"
+            android:onClick="menu2"
             app:cardBackgroundColor="@color/colorAccent"
             app:cardCornerRadius="100dp"
-            android:layout_margin="20dp"
             app:cardMaxElevation="20dp"
-
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent">
@@ -69,17 +69,18 @@
                 app:layout_constraintBottom_toBottomOf="parent" />
 
         </androidx.cardview.widget.CardView>
+
         <androidx.cardview.widget.CardView
             android:id="@+id/card3"
             android:layout_width="70dp"
             android:layout_height="70dp"
+            android:layout_margin="20dp"
             android:layout_marginBottom="50dp"
             android:foregroundGravity="center"
+            android:onClick="menu3"
             app:cardBackgroundColor="@color/colorAccent"
             app:cardCornerRadius="100dp"
-            android:layout_margin="20dp"
             app:cardMaxElevation="20dp"
-
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent">
@@ -98,47 +99,47 @@
 
         </androidx.cardview.widget.CardView>
     </TableRow>
+
     <TableRow
 
-        android:gravity="center"
-        >
+        android:gravity="center">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:gravity="center"
             android:text="Linear Layout"
-            android:gravity="center"
-            android:textSize="12dp"
-            ></TextView>
+            android:textSize="12dp"></TextView>
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:gravity="center"
             android:text="Relative Layout"
-            android:gravity="center"
-            android:textSize="12dp"
-            ></TextView>
+            android:textSize="12dp"></TextView>
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Constraint Layout"
             android:gravity="center"
-            android:textSize="12dp"
-            ></TextView>
+            android:text="Constraint Layout"
+            android:textSize="12dp"></TextView>
 
     </TableRow>
-    <TableRow
-        android:gravity="center"
-        >
+
+    <TableRow android:gravity="center">
+
         <androidx.cardview.widget.CardView
             android:id="@+id/card4"
             android:layout_width="70dp"
             android:layout_height="70dp"
+            android:layout_margin="20dp"
             android:layout_marginBottom="50dp"
             android:foregroundGravity="center"
+            android:onClick="menu4"
             app:cardBackgroundColor="@color/colorAccent"
             app:cardCornerRadius="100dp"
-            android:layout_margin="20dp"
             app:cardMaxElevation="20dp"
-
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent">
@@ -162,13 +163,13 @@
             android:id="@+id/card5"
             android:layout_width="70dp"
             android:layout_height="70dp"
+            android:layout_margin="20dp"
             android:layout_marginBottom="50dp"
             android:foregroundGravity="center"
+            android:onClick="menu5"
             app:cardBackgroundColor="@color/colorAccent"
             app:cardCornerRadius="100dp"
-            android:layout_margin="20dp"
             app:cardMaxElevation="20dp"
-
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent">
@@ -186,17 +187,18 @@
                 app:layout_constraintBottom_toBottomOf="parent" />
 
         </androidx.cardview.widget.CardView>
+
         <androidx.cardview.widget.CardView
             android:id="@+id/card6"
             android:layout_width="70dp"
             android:layout_height="70dp"
+            android:layout_margin="20dp"
             android:layout_marginBottom="50dp"
             android:foregroundGravity="center"
+            android:onClick="menu6"
             app:cardBackgroundColor="@color/colorAccent"
             app:cardCornerRadius="100dp"
-            android:layout_margin="20dp"
             app:cardMaxElevation="20dp"
-
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent">
@@ -215,47 +217,47 @@
 
         </androidx.cardview.widget.CardView>
     </TableRow>
+
     <TableRow
 
-        android:gravity="center"
-        >
+        android:gravity="center">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Linear Layout"
             android:gravity="center"
-            android:textSize="12dp"
-            ></TextView>
+            android:text="Frame Layout"
+            android:textSize="12dp"></TextView>
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:gravity="center"
             android:text="Tabel Layout"
-            android:gravity="center"
-            android:textSize="12dp"
-            ></TextView>
+            android:textSize="12dp"></TextView>
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Material Layout"
             android:gravity="center"
-            android:textSize="12dp"
-            ></TextView>
+            android:text="Material Layout"
+            android:textSize="12dp"></TextView>
 
     </TableRow>
-    <TableRow
-        android:gravity="center"
-        >
+
+    <TableRow android:gravity="center">
+
         <androidx.cardview.widget.CardView
             android:id="@+id/card7"
             android:layout_width="70dp"
             android:layout_height="70dp"
+            android:layout_margin="20dp"
             android:layout_marginBottom="50dp"
             android:foregroundGravity="center"
+            android:onClick="menu7"
             app:cardBackgroundColor="@color/colorAccent"
             app:cardCornerRadius="100dp"
-            android:layout_margin="20dp"
             app:cardMaxElevation="20dp"
-
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent">
@@ -279,13 +281,13 @@
             android:id="@+id/card8"
             android:layout_width="70dp"
             android:layout_height="70dp"
+            android:layout_margin="20dp"
             android:layout_marginBottom="50dp"
             android:foregroundGravity="center"
+            android:onClick="menu8"
             app:cardBackgroundColor="@color/colorAccent"
             app:cardCornerRadius="100dp"
-            android:layout_margin="20dp"
             app:cardMaxElevation="20dp"
-
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent">
@@ -304,39 +306,39 @@
 
 
         </androidx.cardview.widget.CardView>
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="     "
             android:gravity="center"
-            android:textSize="12dp"
-            ></TextView>
+            android:text="     "
+            android:textSize="12dp"></TextView>
     </TableRow>
+
     <TableRow
 
-        android:gravity="center"
-        >
+        android:gravity="center">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:gravity="center"
             android:text="Scroll View \nHorizontal"
-            android:gravity="center"
-            android:textSize="12dp"
-            ></TextView>
+            android:textSize="12dp"></TextView>
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:gravity="center"
             android:text="Scroll View \nVertikal"
-            android:gravity="center"
-            android:textSize="12dp"
-            ></TextView>
+            android:textSize="12dp"></TextView>
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="        "
             android:gravity="center"
-            android:textSize="12dp"
-            ></TextView>
+            android:text="        "
+            android:textSize="12dp"></TextView>
 
     </TableRow>
 
