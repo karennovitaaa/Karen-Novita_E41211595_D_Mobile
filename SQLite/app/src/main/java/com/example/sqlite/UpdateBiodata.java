@@ -49,7 +49,7 @@ public class UpdateBiodata extends AppCompatActivity {
                     text5.getText().toString() + "' where no='" +
                     text1.getText().toString() + "'");
             Toast.makeText(getApplicationContext(), "Berhasil", Toast.LENGTH_LONG).show();
-            MainActivity.ma.RefreshList();
+            MainActivity .ma.RefreshList();
             finish();
         });
         ton1.setOnClickListener((arg0) -> {
